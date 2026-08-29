@@ -1,12 +1,29 @@
-# Source media -- multi-GB originals, never committed.
-# Web-ready derivatives live in assets/img/ and ARE committed.
+# ---------------------------------------------------------------------------
+# Source media -- multi-GB originals and working files. Never committed.
+# Only the web-ready derivatives under assets/img/ belong in this repository.
+# ---------------------------------------------------------------------------
 Documentary/
+New folder/
+Parmanent structure, from construction to complition/
+Videos of community Sensitization on contribution to build madrasa out of contribution/
+
+# Rendered films and the toolchain that builds them.
+# The films live on YouTube; committing them would add ~50 MB to the history
+# on every re-render and can never be removed without rewriting it.
+film/
 
 # Source documents
 *.pptx
+*.ppt
+*.docx
 ~$*
 
-# OS / editor cruft
+# Editor / tooling
+.qodo/
+.vscode/
+.idea/
+
+# OS cruft
 Thumbs.db
 desktop.ini
 .DS_Store
